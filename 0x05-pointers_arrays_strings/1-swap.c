@@ -1,16 +1,17 @@
-#include"main.h"
+i#include"main.h"
 /**
  * main - entry point
  *
  * return: always 0
  *
  */
-void swap_int(int *a, int *b);
+void swap_int(int *a, int *b)
 {
-	int a=40,b=62;
-	int *p,*q;
-	p=&a;
-	q=&b;
+	int *p=&a;
+	int *q=&b;
+	int a=98,b=42;
+	printf("a=%d b=%d", a, b);
 	swap_int(*p, *q);
+	printf("a=%d b=%d", a, b);
 	return (0);
 }

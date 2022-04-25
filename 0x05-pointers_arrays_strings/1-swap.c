@@ -1,14 +1,14 @@
 #include"main.h"
 /**
- * main - entry point
- *
- * return: always 0
+ * swap_int: function to swap integer value
+ * a is first integer
+ * b is second integer
  *
  */
-void swap_int(int *a, int *b) //function to swap value of two integers
+void swap_int(int *a, int *b) 
 {
 	int i;
 	i = *a; 
-	*a = *b; //value of a swapped to b
-	*b = i; //value of b swapped to a 
+	*a = *b; 
+	*b = i; 
 }

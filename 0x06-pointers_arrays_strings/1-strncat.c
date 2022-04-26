@@ -6,7 +6,7 @@
  * @src: character string that is concatenated
  * Return: pointer to the resulting string dest
  */
-char *_strcat(char *dest, char *src)
+char *_strncat(char *dest, char *src, int n)
 {
 	int i = 0, j = 0;
 
